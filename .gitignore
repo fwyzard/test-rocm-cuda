@@ -1,0 +1,8 @@
+# object files and librarues
+*.o
+*.a
+*.so
+
+# binaries
+test
+test.static
