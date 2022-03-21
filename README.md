@@ -25,17 +25,25 @@ Failed to initialise the CUDA runtime
 On a machine with an NVIDIA GPU and the CUDA runtime, the expected output is
 ```
 Failed to initialise the ROCm runtime
+NVIDIA GeForce GTX 1080 Ti
+result: 10
 CUDA kernel ran successfully
 ```
 
 On a machine with an AMD GPU and the HIP/ROCm runtime, the expected output is
 ```
+Radeon Pro WX 9100
+result: 10
 ROCm kernel ran successfully
 Failed to initialise the CUDA runtime
 ```
 
 On a machine with both an NVIDIA and an AMD GPU and the corresponding runtimes, the expected output is
 ```
+Radeon Pro WX 9100
+result: 10
 ROCm kernel ran successfully
+NVIDIA GeForce GTX 1080 Ti
+result: 10
 CUDA kernel ran successfully
 ```
